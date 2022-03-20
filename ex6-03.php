@@ -17,14 +17,14 @@
 	{
 		if($cat=="입장권")
 			$price=15000;
-	elseif($cat=="자유 이용권 주간")
+		elseif($cat=="자유 이용권 주간")
 		$price=28000;
-	elseif($cat=="자유 이용권 야간")
+		elseif($cat=="자유 이용권 야간")
 		$price=25000;
-	else
+		else
 		$price=25000;
 	
-	return $price;
+		return $price;
 	}
 	
 	function adult_rate($cat)	//성인 요금
